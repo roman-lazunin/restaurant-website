@@ -1,0 +1,37 @@
+@import url('color.css');
+
+nav {
+    background-color: var(--navbar-bg);
+    color: var(--navbar-text);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: var(--navbar-text);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--navbar-hover-bg);
+    border-radius: 5px;
+}
+
+nav ul li a:active {
+    background-color: var(--navbar-hover-bg);
+    border-radius: 5px;
+}

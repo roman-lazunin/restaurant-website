@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Chocolate Cake",
+        "description": "Rich chocolate cake with a molten center.",
+        "price": 85,
+        "allergens": ["Dairy", "Nuts"],
+        "tags": ["🥜"]
+    },
+    {
+        "name": "Fruit Salad",
+        "description": "Fresh seasonal fruits.",
+        "price": 65,
+        "allergens": ["None"],
+        "tags": ["🌱", "🌾"]
+    }
+]

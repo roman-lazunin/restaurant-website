@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Grilled Salmon",
+        "description": "Served with roasted vegetables and lemon butter sauce.",
+        "price": 195,
+        "allergens": ["Fish", "Dairy"],
+        "tags": ["🌾"]
+    },
+    {
+        "name": "Vegetarian Pasta",
+        "description": "Fresh pasta with seasonal vegetables and tomato sauce.",
+        "price": 145,
+        "allergens": ["🌾 Gluten"],
+        "tags": ["🌱"]
+    }
+]

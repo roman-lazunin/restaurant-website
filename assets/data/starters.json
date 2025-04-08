@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Bruschetta",
+        "description": "Grilled bread topped with fresh tomatoes, garlic, and basil.",
+        "price": 75,
+        "allergens": ["🌾 Gluten"],
+        "tags": ["🌱"]
+    },
+    {
+        "name": "Garlic Shrimp",
+        "description": "Sautéed shrimp in garlic butter sauce.",
+        "price": 95,
+        "allergens": ["🥜 Shellfish"],
+        "tags": []
+    }
+]
