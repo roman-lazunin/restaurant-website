@@ -1,52 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Meny | Restaurang Webbsida</title>
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <script src="assets/scripts/starters.js" defer></script>
     <script src="assets/scripts/main-courses.js" defer></script>
     <script src="assets/scripts/desserts.js" defer></script>
+    <script src="assets/scripts/lunch-buffet.js" defer></script>
+    <script src="assets/scripts/allergy-filter.js" defer></script>
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html" class="nav-item">Home</a></li>
-            <li><a href="menu.html" class="nav-item">Menu</a></li>
-            <li><a href="about.html" class="nav-item">About</a></li>
-            <li><a href="contact.html" class="nav-item">Contact</a></li>
-            <li><a href="lunchbuffe.html" class="nav-item">Lunchbuffé</a></li>
-            <li><a href="prislista.html" class="nav-item">Prislista</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="index.html" class="nav-item">Hem</a></li>
+                <li><a href="menu.html" class="nav-item active">Meny</a></li>
+                <li><a href="about.html" class="nav-item">Om oss</a></li>
+            </ul>
+        </div>
     </nav>
+    
     <header>
-        <h1>Our Menu</h1>
-        <p>Explore our delicious offerings with detailed descriptions and allergen information.</p>
+        <div class="container">
+            <h1>Vår Meny</h1>
+            <p>Utforska våra läckra rätter tillagade med kärlek och högkvalitativa, lokala råvaror</p>
+        </div>
     </header>
-    <main>
-        <section id="starters">
+    
+    <main class="menu-container">
+        <div class="allergy-filter-container">
+            <h3>Allergifilter</h3>
+            <p>Välj dina allergier för att filtrera menyn</p>
+            <div id="allergy-filter-bar">
+                <!-- Filter options will be dynamically added here -->
+            </div>
+        </div>
+        
+        <section id="lunch-buffet">
+            <div id="lunch-buffet-list">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </section>
+        
+        <section id="starters" >
             <h2>Förrätter</h2>
-            <ul id="starters-list">
+            <p class="menu-category">En perfekt start på din måltid</p>
+            <div id="starters-list-count" class="section-filter-count"></div>
+            <div id="starters-list" class="menu-grid">
                 <!-- Content will be dynamically loaded here -->
-            </ul>
+            </div>
         </section>
-        <section id="main-courses">
+        
+        <section id="main-courses" >
             <h2>Varmrätter</h2>
-            <ul id="main-courses-list">
+            <p class="menu-category">Våra signaturerbjudanden</p>
+            <div id="main-courses-list-count" class="section-filter-count"></div>
+            <div id="main-courses-list" class="menu-grid">
                 <!-- Content will be dynamically loaded here -->
-            </ul>
+            </div>
         </section>
-        <section id="desserts">
+        
+        <section id="desserts" >
             <h2>Efterrätter</h2>
-            <ul id="desserts-list">
+            <p class="menu-category">Avsluta din måltid med något sött</p>
+            <div id="desserts-list-count" class="section-filter-count"></div>
+            <div id="desserts-list" class="menu-grid">
                 <!-- Content will be dynamically loaded here -->
-            </ul>
+            </div>
         </section>
     </main>
+    
     <footer>
-        <p>&copy; 2023 Restaurang Webbsida. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Restaurang Webbsida. Alla rättigheter förbehållna.</p>
+        </div>
     </footer>
-    <script src="navigation.js"></script>
 </body>
 </html>

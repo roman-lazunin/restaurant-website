@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Vardagsbuffé",
+        "description": "Vår populära lunchbuffé serveras måndag-fredag med ett brett urval av varma rätter, sallader, bröd och dryck. Menyn varierar dagligen med både kött-, fisk- och vegetariska alternativ.",
+        "price": 129,
+        "allergens": ["Kontakta personalen för allergier"],
+        "image": "",
+        "timeInfo": "Serveras 11:00 - 14:00"
+    }
+]

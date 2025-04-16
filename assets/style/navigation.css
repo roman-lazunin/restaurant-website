@@ -1,9 +1,9 @@
 @import url('color.css');
 
 nav {
-    background-color: var(--navbar-bg);
-    color: var(--navbar-text);
-    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: var(--spacing-md);
 }
 
 nav ul {
@@ -19,19 +19,33 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--navbar-text);
+    color: var(--light-color);
     text-decoration: none;
     font-weight: bold;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.3s ease;
+    padding: var(--spacing-sm) var(--spacing-md);
+    transition: all 0.3s ease;
+    border-radius: var(--border-radius-sm);
+    display: block;
 }
 
 nav ul li a:hover {
-    background-color: var(--navbar-hover-bg);
-    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
 }
 
-nav ul li a:active {
-    background-color: var(--navbar-hover-bg);
-    border-radius: 5px;
+nav ul li a:active, 
+nav ul li a.active {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul li {
+        margin-bottom: var(--spacing-sm);
+    }
 }

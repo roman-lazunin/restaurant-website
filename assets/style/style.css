@@ -1,1 +1,105 @@
+@import url('variables.css');
 @import url('navigation.css');
+@import url('color.css');
+@import url('main.css');
+@import url('header.css');
+@import url('menu.css');
+@import url('footer.css');
+@import url('about.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+.restaurang_image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-medium);
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-medium);
+    margin-bottom: var(--spacing-md);
+    display: block;
+    object-fit: cover;
+    max-height: 700px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: var(--primary-color);
+    box-shadow: var(--shadow-medium);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Remove sticky positioning on mobile devices */
+@media (max-width: 768px) {
+    nav {
+        position: relative; /* Override sticky positioning */
+    }
+}
+
+header {
+    grid-area: header;
+    background-color: var(--light-color);
+    padding: var(--spacing-xl) var(--spacing-md);
+    text-align: center;
+    border-bottom: var(--border-width-thin) var(--border-style) rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-md);
+}
+
+main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    gap: var(--grid-gap);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+section {
+    background-color: var(--light-color);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-medium);
+}
+
+section h2 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-md);
+    border-bottom: var(--border-width-thin) var(--border-style) var(--secondary-color);
+    padding-bottom: var(--spacing-sm);
+}

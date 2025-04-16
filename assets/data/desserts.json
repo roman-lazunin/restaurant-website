@@ -1,16 +1,46 @@
 [
     {
-        "name": "Chocolate Cake",
-        "description": "Rich chocolate cake with a molten center.",
-        "price": 85,
-        "allergens": ["Dairy", "Nuts"],
-        "tags": ["🥜"]
+        "name": "Chokladfondant",
+        "description": "Varm chokladfondant med flytande center, serverad med hemgjord vaniljglass och färska bär. Ett elegant och klassiskt avslut på måltiden.",
+        "price": 95,
+        "allergens": ["Mjölk", "Ägg", "Gluten"],
+        "image": "assets/images/chocolate-fondant.jpg",
+        "chefRecommendation": true
     },
     {
-        "name": "Fruit Salad",
-        "description": "Fresh seasonal fruits.",
-        "price": 65,
-        "allergens": ["None"],
-        "tags": ["🌱", "🌾"]
+        "name": "Crème Brûlée",
+        "description": "Klassisk fransk vaniljcrème med karamelliserat sockerlock. Serveras med färska säsongsbär och en liten mjuk småkaka.",
+        "price": 85,
+        "allergens": ["Mjölk", "Ägg"],
+        "image": "assets/images/creme-brulee.jpg"
+    },
+    {
+        "name": "Säsongens Sorbet",
+        "description": "Tre kulor av husets sorbet på säsongens frukter. En lätt och uppfriskande dessert som passar perfekt efter en kraftig måltid.",
+        "price": 75,
+        "allergens": ["Inga"],
+        "image": "assets/images/sorbet.jpg"
+    },
+    {
+        "name": "Pannacotta",
+        "description": "Krämig vaniljpannacotta toppad med passionsfruktscoulis och färska bär. Dekorerad med karamelliserade hasselnötter för extra krispighet.",
+        "price": 85,
+        "allergens": ["Mjölk", "Nötter"],
+        "image": "assets/images/pannacotta.jpg"
+    },
+    {
+        "name": "Ostbricka",
+        "description": "Ett urval av lokala och europeiska ostar serverade med husets marmelad, frukt, nötter och knäckebröd. Perfekt att dela eller som avslutning på måltiden.",
+        "price": 135,
+        "allergens": ["Mjölk", "Gluten", "Nötter"],
+        "image": "assets/images/cheese-board.jpg",
+        "chefRecommendation": true
+    },
+    {
+        "name": "Tiramisù",
+        "description": "Klassisk italiensk dessert med lager av kaffedoppade savoiardikex, mascarponecrème och kakao. Vår kocks familjereceptet sedan tre generationer.",
+        "price": 90,
+        "allergens": ["Mjölk", "Ägg", "Gluten"],
+        "image": "assets/images/tiramisu.jpg"
     }
 ]

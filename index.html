@@ -1,57 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurang Webbsida</title>
     <link rel="stylesheet" href="./assets/style/style.css">
-    <link rel="stylesheet" href="./assets/style/navigation.css">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="lunchbuffe.html">Lunchbuffé</a></li>
-            <li><a href="prislista.html">Prislista</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="index.html" class="nav-item active">Hem</a></li>
+                <li><a href="menu.html" class="nav-item">Meny</a></li>
+                <li><a href="about.html" class="nav-item">Om oss</a></li>
+            </ul>
+        </div>
     </nav>
-    <header>
-        <h1>Welcome to Our Restaurant</h1>
-        <p>Experience the best dining experience with us.</p>
+    <header class="hero-header">
+        <div class="container">
+            <h1>Välkommen till vår restaurang</h1>
+            <p>Upplev den bästa matupplevelsen hos oss.</p>
+            <a href="menu.html" class="btn btn-secondary">Se vår meny</a>
+        </div>
     </header>
-    <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>Discover our story and what makes us unique.</p>
+    <main class="menu-container">
+        <section id="menu" class="card">
+            <h2>Dagens specialiteter</h2>
+            <p>Utforska våra läckra rätter tillagade med omsorg och passion. Varje dag erbjuder vi nya spännande specialiteter.</p>
+            <a href="menu.html" class="btn">Se meny</a>
         </section>
-        <section id="menu">
-            <h2>Menu</h2>
-            <p>Explore our delicious offerings.</p>
+        <section id="home" class="card">
+            <h2>Vår vision</h2>
+            <p>Upptäck vår historia och vad som gör oss unika. Vi strävar efter att skapa unika matupplevelser med lokala råvaror och traditionella smaker.</p>
+            <a href="about.html" class="btn">Läs mer</a>
         </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>Learn more about our history and values.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Get in touch with us for reservations or inquiries.</p>
-        </section>
-        <section id="lunchbuffe">
-            <h2>Lunchbuffé</h2>
-            <p>Enjoy our delicious lunch buffet with a variety of options.</p>
-        </section>
-        <section id="prislista">
-            <h2>Prislista</h2>
-            <p>Check out our pricing for all our offerings.</p>
+    
+        <section id="about" class="card">
+            <h2>Evenemang</h2>
+            <p>Lär dig mer om våra kommande evenemang och boka bord för speciella tillfällen. Vi ordnar både privata och företagsevenemang.</p>
+            <a href="contact.html" class="btn">Kontakta oss</a>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Restaurang Webbsida. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Restaurang Webbsida. Alla rättigheter förbehållna.</p>
+        </div>
     </footer>
-    <script src="./assets/scripts/navigation.js"></script>
-    <script src="./assets/scripts/navbarActive.js"></script>
 </body>
 </html>

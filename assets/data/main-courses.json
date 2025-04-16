@@ -1,16 +1,46 @@
 [
     {
-        "name": "Grilled Salmon",
-        "description": "Served with roasted vegetables and lemon butter sauce.",
-        "price": 195,
-        "allergens": ["Fish", "Dairy"],
-        "tags": ["🌾"]
+        "name": "Grillad Lax",
+        "description": "Grillad laxfilé serverad med syrlig citronsmörsås, färska säsongsgrönsaker och dillslungad potatis. En fräsch men mättande rätt med perfekt tillagad fisk.",
+        "price": 215,
+        "allergens": ["Fisk", "Mjölk"],
+        "image": "assets/images/grilled-salmon.jpg",
+        "chefRecommendation": true
     },
     {
-        "name": "Vegetarian Pasta",
-        "description": "Fresh pasta with seasonal vegetables and tomato sauce.",
-        "price": 145,
-        "allergens": ["🌾 Gluten"],
-        "tags": ["🌱"]
+        "name": "Vegetarisk Pasta",
+        "description": "Färsk tagliatelle med säsongens grönsaker, valnötspesto och solmogna körsbärstomater. Toppas med färsk parmesan och ruccola.",
+        "price": 165,
+        "allergens": ["Gluten", "Mjölk", "Nötter"],
+        "image": "assets/images/vegetarian-pasta.jpg"
+    },
+    {
+        "name": "Entrecôte",
+        "description": "250g grillad entrecôte serverad med rödvinssås, bearnaisesås, pommes frites och grillad tomat. Köttet är hängmörat i 21 dagar för maximal smak.",
+        "price": 295,
+        "allergens": ["Ägg", "Mjölk"],
+        "image": "assets/images/ribeye-steak.jpg",
+        "chefRecommendation": true
+    },
+    {
+        "name": "Kyckling Supreme",
+        "description": "Ugnsbakad kycklingbröst med krispig hud, serverad på en bädd av svamprisotto med färska örter och säsongens primörer.",
+        "price": 195,
+        "allergens": ["Mjölk"],
+        "image": "assets/images/chicken-supreme.jpg"
+    },
+    {
+        "name": "Torskrygg",
+        "description": "Smörstekt torskrygg med brynt smör, blomkålspuré, syrad fänkål och potatispuré. Toppas med knaperstekt bacon och färska örter.",
+        "price": 235,
+        "allergens": ["Fisk", "Mjölk"],
+        "image": "assets/images/cod-fillet.jpg"
+    },
+    {
+        "name": "Vegansk Buddha Bowl",
+        "description": "En näringsrik skål med quinoa, rostade grönsaker, avokado, marinerad tofu, edamamebönor och sesamdressing. Serveras med krispiga grönkålschips.",
+        "price": 175,
+        "allergens": ["Soja", "Sesam"],
+        "image": "assets/images/buddha-bowl.jpg"
     }
 ]

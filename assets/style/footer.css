@@ -1,0 +1,22 @@
+footer {
+    grid-area: footer;
+    background-color: var(--footer-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: var(--spacing-lg) var(--spacing-md);
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: var(--light-color);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--accent-color);
+}

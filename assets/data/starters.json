@@ -1,16 +1,39 @@
 [
     {
         "name": "Bruschetta",
-        "description": "Grilled bread topped with fresh tomatoes, garlic, and basil.",
-        "price": 75,
-        "allergens": ["🌾 Gluten"],
-        "tags": ["🌱"]
+        "description": "Grillat surdegsbröd med färska tomater, vitlök, basilika och extra virgin olivolja. En klassisk italiensk förrätt med perfekt balans av smaker.",
+        "price": 85,
+        "allergens": ["Gluten"],
+        "image": "assets/images/bruschetta.jpg",
+        "chefRecommendation": true
     },
     {
-        "name": "Garlic Shrimp",
-        "description": "Sautéed shrimp in garlic butter sauce.",
+        "name": "Vitlöksräkor",
+        "description": "Sauterade tigerräkor i vitlökssmör, chili och persilja. Serveras med grillat surdegsbröd för att samla upp den härliga såsen.",
+        "price": 110,
+        "allergens": ["Skaldjur", "Gluten", "Mjölk"],
+        "image": "assets/images/garlic-shrimp.jpg"
+    },
+    {
+        "name": "Carpaccio på oxfilé",
+        "description": "Tunt skivad rå oxfilé av högsta kvalitet toppad med ruccola, hyvlad parmesan, pinjenötter och tryffelmajonnäs.",
+        "price": 125,
+        "allergens": ["Mjölk", "Nötter"],
+        "image": "assets/images/beef-carpaccio.jpg"
+    },
+    {
+        "name": "Svamprisotto",
+        "description": "Krämig risotto med säsongens svamp, vitt vin och parmesan. En smakfull vegetarisk förrätt som även kan serveras som mindre varmrätt.",
         "price": 95,
-        "allergens": ["🥜 Shellfish"],
-        "tags": []
+        "allergens": ["Mjölk"],
+        "image": "assets/images/mushroom-risotto.jpg"
+    },
+    {
+        "name": "Halloumisallad",
+        "description": "Grillad halloumi på en bädd av sallad med granatäpple, rostade valnötter och honung-citrusdressing.",
+        "price": 105,
+        "allergens": ["Mjölk", "Nötter"],
+        "image": "assets/images/halloumi-salad.jpg",
+        "chefRecommendation": true
     }
 ]
